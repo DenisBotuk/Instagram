@@ -1,0 +1,47 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.button{
+	-fx-background-color: transparent;
+	-fx-border-color: transparent;
+	-fx-border-color: CornflowerBlue;
+	-fx-text-fill: CornflowerBlue;
+}
+
+#email{
+	-fx-background-color: WhiteSmoke;
+}
+#fullName{
+	-fx-background-color: WhiteSmoke;
+}
+
+#password{
+	-fx-background-color: WhiteSmoke;
+}
+#photo{
+	-fx-background-color: WhiteSmoke;
+}
+
+#logIn{
+	-fx-border-color : GRAY; 
+    -fx-border-width : 0.5 0 0 0;
+}
+#titleReg{
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+	
+}
+#title{
+	
+	-fx-text-fill: black;
+	
+}
+#subtitle{
+	-fx-text-fill: black;
+}
+#skip{
+ 	-fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-text-fill: CornflowerBlue;
+}

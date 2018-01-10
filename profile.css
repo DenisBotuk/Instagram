@@ -1,0 +1,105 @@
+#topPane{
+	-fx-border-color : GRAY; 
+	-fx-border-width: 0;
+    -fx-border-width : 0 0 0.5 0;
+}
+#userName{
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+}
+#options{
+	-fx-pref-width: 32px;
+	-fx-pref-height: 32px;
+	-fx-background-image: url("file:///C:/Users/Denis/Desktop/Instagram_images/logout.png");
+}
+#news_feed{
+	-fx-pref-width: 66px;
+	-fx-pref-height: 66px;
+	-fx-background-image: url("file:///C:/Users/Denis/Desktop/Instagram_images/news_feed.png");
+}
+#search{
+	-fx-pref-width: 66px;
+	-fx-pref-height: 66px;
+	-fx-background-image: url("file:///C:/Users/Denis/Desktop/Instagram_images/search.png");
+}
+#addPhoto{
+	-fx-pref-width: 66px;
+	-fx-pref-height: 66px;
+	-fx-background-image: url("file:///C:/Users/Denis/Desktop/Instagram_images/addPhoto.png");
+}
+#notification{
+	-fx-pref-width: 66px;
+	-fx-pref-height: 66px;
+	-fx-background-image: url("file:///C:/Users/Denis/Desktop/Instagram_images/notification.png");
+}
+#profile{
+	-fx-pref-width: 66px;
+	-fx-pref-height: 66px;
+	-fx-background-image: url("file:///C:/Users/Denis/Desktop/Instagram_images/profile.png");
+}
+.button{
+	-fx-background-color: Transparent;
+}
+#statisticButtons{
+	-fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+    -fx-text-fill: Black;
+    -fx-text-alignment: center;
+}
+#statisticLabels{
+	-fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-size: 14;
+    -fx-text-fill: Gray;
+    -fx-text-alignment: center;
+}
+#editProfile{
+	-fx-border-color: black;
+    -fx-background-color: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14;
+    -fx-text-fill: Black;
+    -fx-text-alignment: center;
+}
+#fullName{
+	-fx-font-weight: bold;
+    -fx-font-size: 16;
+}
+#description{
+    -fx-font-size: 14;
+}
+#formatButtonsBox{
+	-fx-border-color : GRAY; 
+    -fx-border-width : 0.5 0 0.5 0;
+}
+#formatButtons{
+	-fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+    -fx-text-fill: Black;
+    -fx-text-alignment: center;
+}
+#grid{
+	-fx-pref-width: 56px;
+	-fx-pref-height: 56px;
+	-fx-background-image: url("file:///C:/Users/Denis/Desktop/Instagram_images/grid.png");
+}
+#ribbon{
+	-fx-pref-width: 56px;
+	-fx-pref-height: 56px;
+	-fx-background-image: url("file:///C:/Users/Denis/Desktop/Instagram_images/ribbon.png");
+}
+#tag_photo{
+	-fx-pref-width: 56px;
+	-fx-pref-height: 56px;
+	-fx-background-image: url("file:///C:/Users/Denis/Desktop/Instagram_images/tag_photo.png");
+}
