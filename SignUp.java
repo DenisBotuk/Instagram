@@ -78,7 +78,7 @@ public class SignUp {
 		register.setTranslateY((registerScene.getHeight()) / 2. - registerImg.getHeight());
 		
 		email = new TextField();
-		email.setPromptText("Email");
+		email.setPromptText("Login");
 		email.setId("email");
 		email.setFocusTraversable(false);
 		registerLO.getChildren().add(email);
@@ -86,7 +86,7 @@ public class SignUp {
 		email.setTranslateX(50);
 		email.setTranslateY(register.getTranslateY());
 		email.setMaxWidth(registerScene.getWidth() - 2 * email.getTranslateX());
-		Tooltip tooltip_email = new Tooltip("Enter email");
+		Tooltip tooltip_email = new Tooltip("Enter login");
 		tooltip_email.setShowDelay(new Duration(10));
 		email.setTooltip(tooltip_email);
 		
